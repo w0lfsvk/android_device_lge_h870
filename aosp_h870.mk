@@ -1,12 +1,14 @@
 $(call inherit-product, device/lge/h870/full_h870.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+#$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_NAME := lineage_h870
+PRODUCT_NAME := aosp_h870
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g6" \
