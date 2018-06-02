@@ -25,5 +25,5 @@ $(call inherit-product, device/lge/h870/device.mk)
 PRODUCT_DEVICE := h870
 PRODUCT_NAME := aosp_h870
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG-h870
+PRODUCT_MODEL := LG-H870
 PRODUCT_MANUFACTURER := LGE
