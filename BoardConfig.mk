@@ -21,6 +21,9 @@ DEVICE_PATH := device/lge/h870
 
 TARGET_OTA_ASSERT_DEVICE := g6,lucye,h870
 
+# exFAT
+TARGET_EXFAT_DRIVER := exfat
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_h870_defconfig
 
