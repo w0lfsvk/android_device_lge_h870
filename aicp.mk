@@ -8,7 +8,9 @@ $(call inherit-product, vendor/aicp/config/common.mk)
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-TARGET_BOOT_ANIMATION_RES := 1440
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2880
+TARGET_SCREEN_WIDTH := 1440
 
 PRODUCT_NAME := aicp_h870
 
