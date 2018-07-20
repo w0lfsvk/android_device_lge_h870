@@ -1,2 +1,2 @@
-add_lunch_combo aosp_h870-userdebug
-add_lunch_combo aosp_h870-eng
+add_lunch_combo rr_h870-userdebug
+add_lunch_combo rr_h870-eng
