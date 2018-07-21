@@ -1,7 +1,7 @@
 $(call inherit-product, device/lge/h870/full_h870.mk)
 
 # Inherit some common Lineage stuff.
-#$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/rr/config/common.mk)
 
